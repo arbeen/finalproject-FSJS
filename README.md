@@ -6,47 +6,40 @@ Using Node.js with Express, Mongoose, REACT and MongoDB create a user website th
 ---
 
 ## ✅ Functional Requirements
-- [ x ] Create RESTful API using Express and Mongoose
-- [ x ] Connect to MongoDB
-- [ x ] Populate MongoDB with sample data from JSONPlaceholder
-- [ ] React frontend with:
-  - [ ] Login page
-  - [ ] Add User page
-  - [ ] Update User page with Delete button
-  - [ ] Display Users page with AG Grid
-- [ ] Use Axios to fetch/post data
-- [ ] Style using Evergreen UI and W3CSS/Bootstrap
+- [x] Create RESTful API using Express and Mongoose
+- [x] Connect to MongoDB
+- [x] Populate MongoDB with sample data from JSONPlaceholder
+- [x] React frontend with:
+  - [x] Dummy Login page
+  - [x] Add User page
+  - [x] Update User page with Delete button
+  - [x] Display Users page with AG Grid
+- [x] Use Axios to fetch/post data
+- [x] Style using Evergreen UI and Bootstrap
 
 ---
 
 ## ✅ Backend Tasks
-- [ ] Setup Express + Mongoose project
-- [ ] Create `User` model with fields:
+- [x] Setup Express + Mongoose project
+- [x] Create `User` model with fields:
   - lastName, firstName, dob, address1, address2, city, postalCode, country, phone, email, userNotes
-- [ ] Create API routes:
-  - [ ] POST /api/users (Create)
-  - [ ] GET /api/users (Read)
-  - [ ] PUT /api/users/:id (Update)
-  - [ ] DELETE /api/users/:id (Delete)
-- [ ] Use Faker.js or JSONPlaceholder to seed MongoDB
-- [ ] Test API with Postman
+- [x] Create API routes:
+  - [x] POST /api/users (Create)
+  - [x] GET /api/users (Read)
+  - [x] PUT /api/users/:id (Update)
+  - [x] DELETE /api/users/:id (Delete)
+- [x] Test API with Postman
 
 ---
 
 ## ✅ Frontend Tasks
-- [ ] Setup React project
-- [ ] Create Login Page (mock login)
-- [ ] Add User form (POST request)
-- [ ] Update/Delete User form (GET, PUT, DELETE)
-- [ ] Display Users table using AG Grid (GET request)
-- [ ] Use Axios for all HTTP requests
-- [ ] Use Evergreen UI components
-- [ ] Apply W3CSS or Bootstrap styling
+- [x] Setup React project
+- [x] Create Login Page (dummy login)
+- [x] Add User form (POST request)
+- [x] Update/Delete User form (GET, PUT, DELETE)
+- [x] Display Users table using AG Grid (GET request)
+- [x] Use Axios for all HTTP requests
+- [x] Use Evergreen UI components
+- [x] Apply Bootstrap styling
 
 ---
-
-## ✅ Final Steps
-- [ ] Add header comment in `index.js` with name and CNumber
-- [ ] Add heavy inline comments for React and Node code
-- [ ] Take screenshots of all working pages
-- [ ] Zip project folder (exclude node_modules), named `CXXXXXXXX.zip`

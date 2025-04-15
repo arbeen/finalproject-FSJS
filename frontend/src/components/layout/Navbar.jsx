@@ -16,9 +16,22 @@ function Navbar() {
         <Link to="/" style={{ textDecoration: 'none', color: 'inherit' }}>
           <Heading size={600}>User Management</Heading>
         </Link>
+
+        <Link
+          to="/login"
+          className="text-muted"
+          style={{
+            marginLeft: 'auto',
+            textDecoration: 'none',
+            fontWeight: 500,
+            padding: '6px 12px'
+          }}
+        >
+          Login
+        </Link>
       </Pane>
     </Pane>
   );
 }
 
-export default Navbar; 
+export default Navbar;

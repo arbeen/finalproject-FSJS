@@ -1,10 +1,10 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Login from "./components/auth/Login";
 import UserList from "./components/UserList";
 import AddUser from "./components/AddUser";
 import UpdateUser from "./components/UpdateUser";
 import Navbar from "./components/layout/Navbar";
 import { AllCommunityModule, ModuleRegistry } from 'ag-grid-community'; 
+import LoginPage from "./components/LoginPage";
 ModuleRegistry.registerModules([AllCommunityModule]);
 
 function App() {
@@ -15,9 +15,9 @@ function App() {
         <main className="flex-grow-1">
           <Routes>
             <Route path="/" element={<UserList />} />
-            <Route path="/login" element={<Login />} />
             <Route path="/add-user" element={<AddUser />} />
             <Route path="/update-user/:id" element={<UpdateUser />} />
+            <Route path="/login" element={<LoginPage />} />
           </Routes>
         </main>
       </div>
