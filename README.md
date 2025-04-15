@@ -6,9 +6,9 @@ Using Node.js with Express, Mongoose, REACT and MongoDB create a user website th
 ---
 
 ## ✅ Functional Requirements
-- [ ] Create RESTful API using Express and Mongoose
-- [ ] Connect to MongoDB
-- [ ] Populate MongoDB with sample data from JSONPlaceholder or Awesome JSON Datasets
+- [ x ] Create RESTful API using Express and Mongoose
+- [ x ] Connect to MongoDB
+- [ x ] Populate MongoDB with sample data from JSONPlaceholder
 - [ ] React frontend with:
   - [ ] Login page
   - [ ] Add User page
